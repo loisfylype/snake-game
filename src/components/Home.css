@@ -1,0 +1,27 @@
+.home-body {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main";
+    grid-template-columns: auto;
+    grid-template-rows: 160px auto;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    grid-area: header;
+}
+
+.home-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    grid-area: main;
+}
