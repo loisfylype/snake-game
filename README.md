@@ -1,2 +1,4 @@
 # snake-game
- Jogo da cobrinha feito em react
+ Jogo da cobrinha feito em react.
+ 
+ Em desenvolvimento...
