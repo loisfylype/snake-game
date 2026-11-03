@@ -1,17 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
+* { box-sizing: border-box; }
 body {
   margin: 0;
-  box-sizing: border-box;
-  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-  
-  font-family: 'Press Start 2P', cursive;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  background: radial-gradient(ellipse at top, #384358, #141921 72%);
+  color: #edf0f4;
+  font-family: ui-monospace, Consolas, monospace;
 }
+button { font: inherit; }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
+#root { width: 100%; display: grid; justify-items: center; }

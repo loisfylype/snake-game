@@ -12,9 +12,9 @@
     "web-vitals": "1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "node --openssl-legacy-provider ./node_modules/react-scripts/scripts/start.js",
+    "build": "node --openssl-legacy-provider ./node_modules/react-scripts/scripts/build.js",
+    "test": "node --openssl-legacy-provider ./node_modules/react-scripts/scripts/test.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
